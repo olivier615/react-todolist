@@ -1,4 +1,23 @@
-.App {
+@import './style.css';
+@import "font-awesome";
+a {
+  cursor: pointer;
+}
+.emptyImg {
+  width: 240px;
+  height: 250px;
+}
+
+.emptyBoard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.my-3 {
+  margin: 16px 0 16px 0;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +54,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
